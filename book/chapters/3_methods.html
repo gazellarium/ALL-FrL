@@ -1,0 +1,1454 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.553">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Learning Morpho-phonological Alternations like French Liaison - 3&nbsp; Methods</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../chapters/4_results.html" rel="next">
+<link href="../chapters/2_backgroundandtheory.html" rel="prev">
+<link href="../resources/favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<meta name="citation_title" content="Learning Morpho-phonological Alternations like French Liaison: an Artificial Language Learning Study">
+<meta name="citation_author" content="Zara Khalaji Pirbaluti">
+<meta name="citation_fulltext_html_url" content="http://hdl.handle.net/2429/90893">
+<meta name="citation_language" content="en">
+<meta name="citation_dissertation_institution" content="University of British Columbia">
+<meta name="citation_reference" content="citation_title=Distributional cues and the onset bias in early word segmentation.;,citation_author=Mireille Babineau;,citation_author=Rushen Shi;,citation_publication_date=2014;,citation_cover_date=2014;,citation_year=2014;,citation_fulltext_html_url=https://doi.apa.org/doi/10.1037/a0038105;,citation_issue=12;,citation_doi=10.1037/a0038105;,citation_volume=50;,citation_language=en;,citation_journal_title=Developmental Psychology;">
+<meta name="citation_reference" content="citation_title=Phonologically Conditioned Allomorph Selection: Phonologically Conditioned Allomorph Selection;,citation_author=Andrew Nevins;,citation_editor=Marc Van Oostendorp;,citation_editor=Colin J. Ewen;,citation_editor=Elizabeth Hume;,citation_editor=Keren Rice;,citation_publication_date=2011-04-28;,citation_cover_date=2011-04-28;,citation_year=2011;,citation_fulltext_html_url=https://onlinelibrary.wiley.com/doi/10.1002/9781444335262.wbctp0099;,citation_doi=10.1002/9781444335262.wbctp0099;,citation_volume=Volume IV. Phonological Interfaces;,citation_language=en;,citation_inbook_title=undefined;">
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/3_methods.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Methods</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Learning Morpho-phonological Alternations like French Liaison</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/gazellarium/ALL-FrL" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <a href="../Learning-Morpho-phonological-Alternations-like-French-Liaison.epub" title="Download ePub" class="quarto-navigation-tool px-1" aria-label="Download ePub"><i class="bi bi-journal"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/0_abstract.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Abstract</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/1_introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/2_backgroundandtheory.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Background and Theoretical Framework</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/3_methods.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Methods</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/4_results.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Results</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/5_discussion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Discussion</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bibliography</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/appendix1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Stimuli List</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/appendix2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Statistical Summaries</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="2">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#participants" id="toc-participants" class="nav-link active" data-scroll-target="#participants"><span class="header-section-number">3.1</span> Participants</a></li>
+  <li><a href="#overview-of-design" id="toc-overview-of-design" class="nav-link" data-scroll-target="#overview-of-design"><span class="header-section-number">3.2</span> Overview of design</a></li>
+  <li><a href="#materials" id="toc-materials" class="nav-link" data-scroll-target="#materials"><span class="header-section-number">3.3</span> Materials</a>
+  <ul>
+  <li><a href="#training-and-testing-stimuli" id="toc-training-and-testing-stimuli" class="nav-link" data-scroll-target="#training-and-testing-stimuli"><span class="header-section-number">3.3.1</span> Training and testing Stimuli</a></li>
+  <li><a href="#audio-stimuli" id="toc-audio-stimuli" class="nav-link" data-scroll-target="#audio-stimuli"><span class="header-section-number">3.3.2</span> Audio stimuli</a></li>
+  <li><a href="#visual-stimuli" id="toc-visual-stimuli" class="nav-link" data-scroll-target="#visual-stimuli"><span class="header-section-number">3.3.3</span> Visual stimuli</a></li>
+  </ul></li>
+  <li><a href="#experimental-procedure" id="toc-experimental-procedure" class="nav-link" data-scroll-target="#experimental-procedure"><span class="header-section-number">3.4</span> Experimental procedure</a>
+  <ul>
+  <li><a href="#training" id="toc-training" class="nav-link" data-scroll-target="#training"><span class="header-section-number">3.4.1</span> Training</a></li>
+  <li><a href="#testing" id="toc-testing" class="nav-link" data-scroll-target="#testing"><span class="header-section-number">3.4.2</span> Testing</a>
+  <ul class="collapse">
+  <li><a href="#testing-task-1-phrase-judgement" id="toc-testing-task-1-phrase-judgement" class="nav-link" data-scroll-target="#testing-task-1-phrase-judgement">Testing Task 1: Phrase Judgement</a></li>
+  <li><a href="#testing-task-2-familiar-segmentation" id="toc-testing-task-2-familiar-segmentation" class="nav-link" data-scroll-target="#testing-task-2-familiar-segmentation">Testing Task 2: Familiar Segmentation</a></li>
+  <li><a href="#testing-task-3-novel-segmentation" id="toc-testing-task-3-novel-segmentation" class="nav-link" data-scroll-target="#testing-task-3-novel-segmentation">Testing Task 3: Novel Segmentation</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#data-collection-procedure-and-data-analysis" id="toc-data-collection-procedure-and-data-analysis" class="nav-link" data-scroll-target="#data-collection-procedure-and-data-analysis"><span class="header-section-number">3.5</span> Data collection procedure and data analysis</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Methods</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="participants" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="participants"><span class="header-section-number">3.1</span> Participants</h2>
+<p>A total of 241 participants were recruited from the UBC linguistics participants pool in the Alternating 1st, Non-alternating 1st, and Mixed experimental conditions with 82, 83, and 76 participants, respectively. This convenience sample consisted of participants aged 16 to 49 (Mean=20.6, SD = 4), with 167 as female (69%), 49 participants as male (21%) and 25 (10%) as nonbinary or unreported. Regarding the language background, 211 reported English as their dominant language, and 30 individuals listed English as their non-dominant language. Among the non-English dominant languages, Mandarin and/or Cantonese (13), Korean (5), Japanese (4), and Tagalog (3) were listed. Due to not meeting the language background eligibility criterion of the study, 5 French-speaking participants were excluded, specifically as they were raised with Francophone caretakers with an age of acquisition of French below four. More information about the data collection procedures and the inclusion and exclusion criteria is provided in Section 3.5.</p>
+</section>
+<section id="overview-of-design" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="overview-of-design"><span class="header-section-number">3.2</span> Overview of design</h2>
+<p>The experimental design employed a between-subjects approach, consisting of three distinct conditions. The conditions varied only in the distribution order and the content of the training blocks, but all participants completed the training phase with the same set of items and the same number of training trials by the time they reached the testing phase. Consequently, this independent variable was categorical, consisting of three levels (i.e., the training conditions). The dependent variable was binary, representing participants’ correct responses in two forced-choice tasks during testing. Below is a diagram that provides a step-by-step overview of the experimental design in Figure 3-1.</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="figures/fig3-1.png" class="img-fluid figure-img"></p>
+<figcaption>Figure ‎3‑1. Step-by-step overview of the experimental design and procedure</figcaption>
+</figure>
+</div>
+<p>The experiment was conducted remotely (online) via a web browser. Participants had to blindly register in only one the conditions to receive a link. After the landing page, participants were required to complete a consent form and undergo a headphone check with six trials. Correct answers to four and more trials allowed them to progress to the experiment. Introductory instructions about the artificial language were provided to participants at the outset of the experiment and more specific instructions before the training and testing tasks.</p>
+<p>The training phase included 144 trials, and the testing phase included 64 trials overall. At the end of the experiment, an optional debriefing form was made available, allowing participants to offer written feedback regarding their approach to the experiment. Further details about the procedure in each phase and the types of trials will be discussed in Section 3.4 after reviewing the materials used in the experiment in Section 3.3.</p>
+</section>
+<section id="materials" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="materials"><span class="header-section-number">3.3</span> Materials</h2>
+<p>All the nonce-word stimuli used throughout the&nbsp;training phase of the experiment consisted of two-word phrases (word1 + word2) presented to participants as audio stimuli and simultaneously accompanied by visual stimuli. In the introduction to the mini-language that participants received, these phrases were framed as possessive phrases in an alien language, where the first word is the possessor and the second word is the possessed item (mirroring the most common order in English). These items were described as various everyday items that the aliens brought in their luggage to Earth to disguise themselves on their tour of the galaxy. The contextual scenario was introduced to participants as an opportunity to learn about possessive phrases in that alien language.</p>
+<section id="training-and-testing-stimuli" class="level3" data-number="3.3.1">
+<h3 data-number="3.3.1" class="anchored" data-anchor-id="training-and-testing-stimuli"><span class="header-section-number">3.3.1</span> Training and testing Stimuli</h3>
+<p>In total, there were four word1 stimuli, representing the aliens’ names, categorized into alternating and non-alternating types. Each alternating word1 had two allomorph forms. The phonological conditioning pattern of the alternating word1s was analogous to that of the liaison allomorphs in French. The C-final allomorph ([me<strong>ʃ</strong>] or [di<strong>t</strong>]) would occur before V-initial word2s and the V-final allomorph ([me] or [di]) would occur before C-initial word2s. The consonants in bold letters /<strong>ʃ</strong>/ and /<strong>t</strong>/ are referred to as the liaison consonant (LC). Table 3-1 below displays all the word1s designed to be analogous to the morpheme-specific alternations in French, as presented in Section 2.2 in Examples (1−5).</p>
+<table class="table">
+<caption>Table ‎3‑1. Word1 stimuli representing alien names</caption>
+<colgroup>
+<col style="width: 26%">
+<col style="width: 23%">
+<col style="width: 31%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Alternating word1s</strong></th>
+<th></th>
+<th style="text-align: left;"><strong>Non-alternating word1s</strong></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">V(C)-final</td>
+<td></td>
+<td style="text-align: left;">C-final</td>
+<td>V-final</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">[me], [me<strong>ʃ</strong>]</td>
+<td>[di], [di<strong>t</strong>]</td>
+<td style="text-align: left;">[kɑn]</td>
+<td>[lu]</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">(as in <em>petit)</em></td>
+<td></td>
+<td style="text-align: left;">(as in <em>jeune)</em></td>
+<td>(as in <em>joli)</em></td>
+</tr>
+</tbody>
+</table>
+<p>The rest of the stimuli were 32 word2s which were constructed using 18 consonants (/p b t d k g tʃ dʒ f v s z ʃ n m r l j/) and six vowels (/i e u o æ ɑ/) organized into four distinct word shapes: V.CVC, V.CV, CV.CVC, and CV.CV. The segments adhered to the phonemic inventory and phonotactic rules of English so the vowels /e/ and /o/ were phonetically [eɪ] and [oʊ], except before /r/. Each vowel appeared between 4 and 6 times, while each consonant was included between 2 and 4 times in the overall list of word2s. Efforts were made to counterbalance the position of vowels and consonants in the words as much as possible. Table 3-2 below categorizes the word2s into V-initial and C-initial types. Sixteen of the word2 stimuli appeared both in training and in testing tasks 1 and 2, while the other 16 were only used in task 3 in testing (i.e., they did not appear in training).</p>
+<table class="table">
+<caption>Table ‎3‑2. Word2 stimuli representing everyday object nouns</caption>
+<colgroup>
+<col style="width: 36%">
+<col style="width: 21%">
+<col style="width: 7%">
+<col style="width: 21%">
+<col style="width: 9%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: left;"><strong>V-initial word2s</strong></th>
+<th></th>
+<th><strong>C-initial word2s</strong></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td style="text-align: left;">V.CVC</td>
+<td>V.CV</td>
+<td>CV.CVC</td>
+<td>CV.CV</td>
+</tr>
+<tr class="even">
+<td>Training &amp; Testing task 1 and task 2</td>
+<td style="text-align: left;">/edæp/</td>
+<td>/æte/</td>
+<td>/pæzɑm/</td>
+<td>/vezu/</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td style="text-align: left;">/ibud/</td>
+<td>/ogi/</td>
+<td>/budol/</td>
+<td>/mæti/</td>
+</tr>
+<tr class="even">
+<td></td>
+<td style="text-align: left;">/ɑtæl/</td>
+<td>/ufe/</td>
+<td>/gɑbiʃ/</td>
+<td>/kisɑ/</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td style="text-align: left;">/ugæʃ/</td>
+<td>/ido/</td>
+<td>/dʒomet/</td>
+<td>/peku/</td>
+</tr>
+<tr class="even">
+<td>Testing task 3<br>
+(novel)</td>
+<td style="text-align: left;">/itʃæn/</td>
+<td>/ezɑ/</td>
+<td>/færus/</td>
+<td>/fule/</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td style="text-align: left;">/ɑjor/</td>
+<td>/ɑvi/</td>
+<td>/tʃægef/</td>
+<td>/sædʒɑ/</td>
+</tr>
+<tr class="even">
+<td></td>
+<td style="text-align: left;">/okɑn/</td>
+<td>/osu/</td>
+<td>/runip/</td>
+<td>/rejɑ/</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td style="text-align: left;">/eʃin/</td>
+<td>/imɑ/</td>
+<td>/zoʃek/</td>
+<td>/voli/</td>
+</tr>
+</tbody>
+</table>
+<p>The word1 and training word2 stimuli paired together would result in two-word phrases that constitute the items in the training trials, as well as the choice stimuli in testing task 1 and the prompt stimuli in the testing task 2 trials. The word1 and novel word2 stimuli paired together would result in two-word phrases that are used only as the prompt stimuli in the testing task 3. Further details about the distribution of the stimuli in the training and testing phase are provided in Section 3.4 along with the experimental procedure.</p>
+</section>
+<section id="audio-stimuli" class="level3" data-number="3.3.2">
+<h3 data-number="3.3.2" class="anchored" data-anchor-id="audio-stimuli"><span class="header-section-number">3.3.2</span> Audio stimuli</h3>
+<p>The audio stimuli were recorded by a phonetically-trained female speaker of Canadian English in a controlled recording environment, using a Shure WH20 dynamic headset microphone and PreSonus Studio One Pro software with a sampling rate of 44.1 kHz and a bit depth of 32-bit. All audio files were adjusted and normalized to an amplitude of 50 dB. The phrasal stimuli comprised a list of trisyllabic word1 + word2 phrases structured in six various shapes: CV.CV.CV(C) or CVC.CV.CV(C) or CV.VCV(C). The first vowel was pronounced with an unreduced quality to make sure all the stimuli adhere to the perceived stress pattern ˌσ.ˈσ.σ. The phrasal trisyllabic stimuli were recorded without a carrier phrase, in a list, but the single isolated words, used in testing tasks 2 and 3, were placed within the carrier phrase “I said [target word] again/twice”. The long recordings were transcribed by the researcher and subsequently annotated using the Montreal Forced Aligner 2 package in Python (McAuliffe et al., 2017). Following a thorough review of the annotation text grids produced by the MFA, smaller audio files containing only the target words (ranging from 1 to 3 seconds) were automatically extracted using a script in Praat 6.1.42 (Boersma and Weenink, 2021).</p>
+</section>
+<section id="visual-stimuli" class="level3" data-number="3.3.3">
+<h3 data-number="3.3.3" class="anchored" data-anchor-id="visual-stimuli"><span class="header-section-number">3.3.3</span> Visual stimuli</h3>
+<p>Each word in the experiment was associated with a distinct and colourful image consistently for all participants. The visual stimuli included 2D vector illustrations of various alien characters and everyday objects, covering themes related to school, the workplace, kitchen items, and more. These illustrations were sourced freely from a vector image and graphics website found on the internet.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> The images were displayed centrally on the screen, with dimensions between a maximum of 580 pixels and a minimum of 256 pixels. Figure 3-2 below provides an example of the illustrations used for the four alien characters and a set of the images of the objects which were the visual stimuli used across all trial types.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/fig3-2.png" class="img-fluid figure-img"></p>
+<figcaption>Figure ‎3‑2. Visual stimuli used for word1 and a sample of visual stimuli used for word2</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="experimental-procedure" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="experimental-procedure"><span class="header-section-number">3.4</span> Experimental procedure</h2>
+<section id="training" class="level3" data-number="3.4.1">
+<h3 data-number="3.4.1" class="anchored" data-anchor-id="training"><span class="header-section-number">3.4.1</span> Training</h3>
+<p>The initial phase of the experiment was dedicated to training participants on the two-word phrases. During this phase, participants listened to a phrase and simultaneously viewed two corresponding images in each trial, similar to the example shown in Figure 3-3. This was a self-paced exposure task, allowing participants to press a key when they felt prepared to advance to the next trial. The training phase included 144 trials and the total duration of this phase was on average 8 (SD=7) minutes for all participants.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/fig3-3.png" class="img-fluid figure-img" width="1000"></p>
+<figcaption>Figure ‎3‑3. A sample page of all experimental trials in the web browser</figcaption>
+</figure>
+</div>
+<p>Participants in all three conditions were exposed to the same training stimuli over the course of the training phase; the only difference between the conditions was the distribution order of the training items. All the training trials were organized into 2 blocks. The three conditions are named based on the name of the first block, that is “Alternating 1st” (Alt1st), “Non-alternating 1st” (NonAlt1st) and “Mix” (Mixed). Table 3-3 below illustrates the order of the blocks and trial types for each condition with some examples. For example, in the Alt1st condition: block1 contained phrases constructed with alternating word1s [meʃ]/[me] and [dit]/[di], each combined with 12 word2s, such as: [dit] + /edæp/, [di] + /budol/, [meʃ] + /edæp/, [me] + /kisɑ/ and block2 contained phrases constructed with non-alternating word1s /lu/ and /kɑn/, each combined with 12 word2s, such as: /lu/ + /edæp/, /lu/ + /budol/, /kɑn/ + /edæp/, /kɑn/ + /kisɑ/. Conversely, in the NonAlt1st condition, block 1 included phrases with two non-alternating word1s, and block 2 contained phrases with two alternating word1s. The third condition, Mix, did not consist of phrases exclusively constructed with non-alternating or alternating word1s; rather, each block contained an equal distribution, with half of the phrases created using one alternating word1 and the other half using one non-alternating word1. We recruited participants in two sub-conditions with both orders to counterbalance the effect of order (Mix1: block1 – block2, Mix2: block2 – block1) and later collapsed them into one condition for the analysis.</p>
+<p>In each block, participants were presented with 24 unique training trials per block. The four word1s were divided equally between the blocks as shown with examples in Table 3-3, two of the word1s appeared in the first block and the other two appeared in the second block. For all conditions, out of the 16 unique word2s half were paired with both word1s while the remaining 8 were limited-context word2s and appeared with only one. In the subsequent tables (and in the next subsection about testing), this distinction among the phrases containing different word2 types is referred to as limited-context versus full-context. For instance, /edæp/ is paired with both word1s inside a block so it is a full-context word2 and /budol/ or /kisɑ/ are paired with just one word1 inside a block so they are limited-context word2s. Therefore, in each block, the 24 training trials consisted of 2 word1s × 8 full-context word2s + 1 word1 × 4 limited-context word2s + 1 word1 × 4 limited-context word2s. This 24-trial list was repeated three times, each time with a different random order, resulting in a total of 72 training trials per block (24 trials × 3 repetitions). As there were two blocks, the training phase consisted of 144 trials overall. A pseudo-randomization order was employed to ensure that the word1 + full-context word2 phrases (that shared the same word2 but differed in their word1) were&nbsp;immediately adjacent to&nbsp;each other in the list of 24 trials. Consequently, the special arrangement of the 16 word2s in the entire training phase allowed participants to encounter half of the word2s in full contexts paired with 4 unique word1s while also being exposed to half of the word2s in a limited context, once with an alternating word1 and once with a non-alternating word1. For a comprehensive list of stimuli in each block, please refer to the Appendix A.</p>
+<table class="table">
+<caption>Table ‎3‑3. Structure and the content of the blocks in the training phase of the experiment</caption>
+<colgroup>
+<col style="width: 15%">
+<col style="width: 12%">
+<col style="width: 19%">
+<col style="width: 23%">
+<col style="width: 27%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th></th>
+<th>Alternating 1<sup>st</sup><br>
+Condition</th>
+<th><strong>Non -alternating 1<sup>st</sup> Condition</strong></th>
+<th><strong>Mixed<br>
+Condition</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong><em>Training block 1</em></strong></td>
+<td><strong><em>word2 type</em></strong></td>
+<td><strong><em>“alternating word1”</em></strong></td>
+<td><strong><em>“non -alternating word1”</em></strong></td>
+<td><strong><em>“non -alternating/ alternating word1”</em></strong></td>
+</tr>
+<tr class="even">
+<td><em>n total<br>
+72= 24</em>×<em>3</em></td>
+<td><p><em>full-context</em></p>
+<p><em>limited-context</em></p>
+<p><em>full-context</em></p>
+<p><em>limited-context</em></p></td>
+<td><p><strong>[dit]</strong> + /edæp/</p>
+<p><strong>[di]</strong> + /budol/</p>
+<p>…</p>
+<p><strong>[meʃ]</strong> + /edæp/</p>
+<p><strong>[me]</strong> + /kisɑ/</p>
+<p>…</p></td>
+<td><p><strong>/lu/</strong> + /edæp/</p>
+<p><strong>/lu/</strong> + /pæzɑm/</p>
+<p>…</p>
+<p><strong>/kɑn/</strong> + /edæp/</p>
+<p><strong>/kɑn/</strong> + /vezu/</p>
+<p>…</p></td>
+<td><p><strong>/lu/</strong> + /edæp/</p>
+<p><strong>/lu/</strong> + /pæzɑm/</p>
+<p>…</p>
+<p><strong>[meʃ]</strong> + /edæp/</p>
+<p><strong>[me]</strong> + /kisɑ/</p>
+<p>…</p></td>
+</tr>
+<tr class="odd">
+<td><strong><em>Training block 2</em></strong></td>
+<td></td>
+<td><strong><em>“non -alternating word1”</em></strong></td>
+<td><strong><em>“alternating word1”</em></strong></td>
+<td><strong><em>“non-alternating / alternating word1”</em></strong></td>
+</tr>
+<tr class="even">
+<td><em>n total<br>
+72= 24</em>×<em>3</em></td>
+<td><p><em>full-context</em></p>
+<p><em>limited-context</em></p>
+<p><em>full-context</em></p>
+<p><em>limited-context</em></p></td>
+<td><p><strong>/lu/</strong> + /edæp/</p>
+<p><strong>/lu/</strong> + /pæzɑm/</p>
+<p>…</p>
+<p><strong>/kɑn/</strong> + /edæp/</p>
+<p><strong>/kɑn/</strong> + /vezu/</p>
+<p>…</p></td>
+<td><p><strong>[dit]</strong> + /edæp/</p>
+<p><strong>[di]</strong> + /budol/</p>
+<p>…</p>
+<p><strong>[meʃ]</strong> + /edæp/</p>
+<p><strong>[me]</strong> + /kisɑ/</p>
+<p>…</p></td>
+<td><p><strong>/kɑn/</strong> + /edæp/</p>
+<p><strong>/kɑn/</strong> + /vezu/</p>
+<p>…</p>
+<p><strong>[dit]</strong> + /edæp/</p>
+<p><strong>[di]</strong> + /budol/</p>
+<p>…</p></td>
+</tr>
+</tbody>
+</table>
+<p>Table 3-4 below illustrates the structure inside each block for the specific pseudo-randomization order of training trials which applies to all conditions. For instance, when the full-context word2 /edæp/ appears in the presentation list, we ensured that it also appears in the next phrase that follows. In an exclusively alternating word1 block, the sequence of phrases would be [dit] + /edæp/ and [meʃ] + /edæp/, while in an exclusively non-alternating block the phrases in sequence would be /lu/ + /edæp/ and /kɑn/ + /edæp/. Limited-context word2s only appear with one word1 type in the training trials; therefore, the other potential phrase is held-out from appearing in training. For instance, when /kisɑ/ appears in a phrase with an alternating word1 as in [me] + /kisɑ/, that would render [di] + /kisɑ/ a held-out phrase. The held-out phrases are incorporated in some of the testing trials.</p>
+<table class="table">
+<caption>Table ‎3‑4. Pseudo-randomization structure inside each training block</caption>
+<colgroup>
+<col style="width: 22%">
+<col style="width: 18%">
+<col style="width: 26%">
+<col style="width: 31%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Training blocks</strong></th>
+<th><strong>word2 type</strong></th>
+<th><strong>“alternating word1”</strong></th>
+<th><strong>” non-alternating word1”</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>n total<br>
+72=24×3</td>
+<td><p>full-context</p>
+<p>full-context</p>
+<p>limited-context</p>
+<p>full-context</p>
+<p>full-context</p>
+<p>full-context</p>
+<p>full-context</p>
+<p>limited-context</p></td>
+<td><p>[dit] + /edæp/</p>
+<p>[meʃ] + /edæp/</p>
+<p>[me] + /kisɑ/</p>
+<p>[dit] + /ufe/</p>
+<p>[meʃ] + /ufe/</p>
+<p>[di] + /peku/</p>
+<p>[me] + /peku/</p>
+<p>[di] + /budol/</p></td>
+<td><p>/lu/ + /edæp/</p>
+<p>/kɑn/ + /edæp/</p>
+<p>/kɑn/ + /kisɑ/</p>
+<p>/lu/ + /ufe/</p>
+<p>/kɑn/ + /ufe/</p>
+<p>/lu/ + /peku/</p>
+<p>/kɑn/ + /peku/</p>
+<p>/lu/ + /budol/</p></td>
+</tr>
+</tbody>
+</table>
+<p>Upon the completion of the training trials, participants were informed that the testing phase could be initiated by clicking on the Next button on the page. In the following section, we will describe the specifics of the testing trials.</p>
+</section>
+<section id="testing" class="level3" data-number="3.4.2">
+<h3 data-number="3.4.2" class="anchored" data-anchor-id="testing"><span class="header-section-number">3.4.2</span> Testing</h3>
+<p>In this section, participants engaged in two different types of 2-alternative forced-choice (2AFC) tasks, using key presses on a keyboard. The number of times the first choice or second choice was the correct answer was completely counterbalanced throughout each task. Throughout all trials, prompts were presented to participants simultaneously through both auditory and visual means, just as in the training phase. Before each task, participants had the opportunity to practice with two practice stimuli. Participants were advised to select the choice that initially appears correct to them with two warnings: first, they would not have the option to alter their answers, and second, after a prolonged pause (6 seconds), the trials would time-out automatically proceeding to the next item. The testing phase included 64 trials overall and the total duration of this phase was on average 15 (SD=5) minutes for all participants.</p>
+<p>The testing phase was organized into three blocks of testing trials. The first testing task was a phrase judgement task, and the second testing task was a segmentation task. In these first two tasks, both full-context and limited-context word2s were incorporated. Limited-context word2s here in the testing phrases refer to the word2s in the held-out word1 + word2 pairings not encountered by participants in training. The third testing task was a segmentation task incorporating only novel word2s. The following subsections provide further details regarding the stimuli and procedures for each task. For a comprehensive list of items in each task, please refer to the Appendix A. Table 3-5 below outlines the chronological order of the testing tasks along with the template for the test items in each trial.</p>
+<p>Table ‎3‑5. The structure of the tasks in the testing phase of the experiment</p>
+<table class="table">
+<colgroup>
+<col style="width: 27%">
+<col style="width: 29%">
+<col style="width: 42%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Task Name</strong></th>
+<th><strong>Stimuli Type and Number</strong></th>
+<th><strong>Testing Task Template</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>Practice</em></td>
+<td>n=2</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>Testing task 1<br>
+“Phrase Judgement”</em></td>
+<td>full phrase choices<br>
+n=24+8<br>
+(familiar + held-out)</td>
+<td><p>🔊 [Word1+Word2] vs 🔊 [Word1+Word2]</p>
+<p>📷</p></td>
+</tr>
+<tr class="odd">
+<td><em>Practice</em></td>
+<td>n=2</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><p><em>Testing task 2</em></p>
+<p><em>“Familiar Segmentation”</em></p></td>
+<td>word2 choices<br>
+n=12+4<br>
+(familiar + held-out)</td>
+<td><p>🔊 [Word1+Word2] +<br>
+🔊 [Word2] vs 🔊 [Word2]</p>
+<p>📷</p></td>
+</tr>
+<tr class="odd">
+<td><p><em>Testing task 3</em></p>
+<p><em>“Novel Segmentation”</em></p></td>
+<td>word2 choices<br>
+n=16<br>
+(novel)</td>
+<td><p>🔊 [Word1+Word2] +<br>
+🔊 [Word2] vs 🔊 [Word2]</p>
+<p>📷</p></td>
+</tr>
+</tbody>
+</table>
+<section id="testing-task-1-phrase-judgement" class="level4">
+<h4 class="anchored" data-anchor-id="testing-task-1-phrase-judgement">Testing Task 1: Phrase Judgement</h4>
+<p>The first forced choice task involved participants viewing an image while listening to two phrases featuring the combination of the same word1 and word2. The intended correct phrase either has appeared in the training or exactly matched the phonological patterns in the training items and the incorrect phrase was minimally different. Participants were instructed to choose the phrase that seems correct to them based on the alien language they have been exposed to in their training by pressing “Q” for the first and “P” for the second audio stimulus. All word1s and word2s presented were known by participants, as they had appeared during the training phase separately at least once. Although 8 out of 32 trials contained held-out phrases as they included limited-context word2s—only paired with one non-alternating and one alternating word1 in training. The stimuli were automatically concatenated using a Praat script, with a 75ms inter-stimulus interval (ISI) between the choices. The trials were labelled and categorized into 3 types based on their word1 type as well as the error type: “basic”, “alternating”, and “non-alternating”. Table 3-6 provides examples of choices coded as correct and incorrect for each trial type. The choices considered incorrect contained specific errors with minimal differences so, unlike the correct choices, they did not match the patterns presented in the training trials.</p>
+<p>The 16 basic trials (B-A and B-NA) involved testing items constructed with both alternating and non-alternating word1s. The errors in the incorrect choices for the non-alternating word1s were specifically designed by either omitting the final consonant (/n/ of /kɑn/) before a vowel-initial word2 or by inserting an LC (after /lu/) before a consonant-initial word2. In contrast, the incorrect choices for the alternating word1s were created by swapping the LCs, that is changing /ʃ/ to /t/ and vice versa, and then by inserting the wrong LC either before a consonant-initial word2 or a vowel-initial word2 where an LC was already present.</p>
+<p>The 8 alternating trials (Alt) consisted of testing items made with the alternating word1s [meʃ/me] and [dit/di]. In this case, the errors in the incorrect choices were created by either omitting the LC before a vowel-initial word2 or inserting the LC before a consonant-initial word2.</p>
+<p>The 8 non-alternating trials (NonAlt) comprised testing items constructed with non-alternating word1s like /lu/ and /kɑn/ The errors in these incorrect choices arose from either removing the final consonant (/n/) before a consonant-initial word2 or inserting an LC between the vowel-final word1 and a vowel-initial word2.</p>
+<table class="table">
+<caption>Table ‎3‑6. Testing trial types in task 1 (phrase judgement) with examples</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 8%">
+<col style="width: 9%">
+<col style="width: 46%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Testing Trial Type</strong></th>
+<th>Correct</th>
+<th>Incorrect</th>
+<th><strong>Type of Error</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong><em>itemBasic (B-A) n=8</em></strong></td>
+<td><p>dikisɑ</p>
+<p>meʃæte</p></td>
+<td><p>diʃkisɑ</p>
+<p>meʃtæte</p></td>
+<td><p>inserting another LC with C-initial word2s</p>
+<p>inserting an extra LC with V-initial word2s</p></td>
+</tr>
+<tr class="even">
+<td><strong><em>itemBasic (B-NA) n=8</em></strong></td>
+<td><p>kɑnɑtæl</p>
+<p>lubudol</p></td>
+<td><p>kɑ_ɑtæl</p>
+<p>lutbudol</p></td>
+<td><p>deleting the final C of a non-alternating word1</p>
+<p>inserting an LC at the end of a non-alternating word1</p></td>
+</tr>
+<tr class="odd">
+<td><strong><em>itemAltlternating (Alt) n=8</em></strong></td>
+<td><p>ditugæʃ</p>
+<p>mebudol</p></td>
+<td><p>di_ugæʃ</p>
+<p>meʃbudol</p></td>
+<td><p>deleting the LC</p>
+<p>inserting the LC</p></td>
+</tr>
+<tr class="even">
+<td><strong><em>itemNon-alternating (NonAlt) n=8</em></strong></td>
+<td><p>kɑnpeku</p>
+<p>luæte</p></td>
+<td><p>kɑ_peku</p>
+<p>luʃæte</p></td>
+<td><p>deleting final C of word1</p>
+<p>inserting some LC after the word1</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="testing-task-2-familiar-segmentation" class="level4">
+<h4 class="anchored" data-anchor-id="testing-task-2-familiar-segmentation">Testing Task 2: Familiar Segmentation</h4>
+<p>In Task 2, the forced choice task was essentially a morpheme segmentation exercise. Participants viewed an image while listening to a phrase, which was followed by two choices representing potential realizations of the word2s from the phrase, as pronounced in isolation. Participants were instructed to choose the isolated word referring to the object’s name that seems correct to them by pressing keys on the keyboard. Essentially, in this task participants decide on the segmentation of the words using their own intuitions because the training trials did not contain any isolated words. All the word2 choices were known by participants from the training phase, although 4 of the 16 trials included held-out phrases. The stimuli were concatenated automatically using a Praat script, with an inter-stimulus interval (ISI) of 100ms between the full phrase and the first choice, and a 75ms ISI between the two choices. In contrast to the previous task, task 2 only included alternating word1s, so the trials are categorized into just two types: “basic” and “alternating”. Including non-alternating word1s /lu/ and /kɑn/ was deemed unsuitable for this task, as our primary interest lay in how participants address the ambiguity in parsing liaison consonants /ʃ/ and /t/. Table 3-7 illustrates examples of each item type.</p>
+<p>Basic trials (B-A) comprised testing items formed with word1s that did not have any liaison consonants (LC), meaning a consonant-initial word2 was present. In these trials, an incorrect choice resulted from misparsing the onset of word2 as an LC.</p>
+<p>Conversely, alternating trials (Alt) featured items constructed with words that included an LC, indicating that a vowel-initial word2 was used. Here, the incorrect choice stemmed from misparsing the LC as the word2’s onset.</p>
+<table class="table">
+<caption>Table ‎3‑7. Testing trial types in task 2 (familiar segmentation) with examples</caption>
+<colgroup>
+<col style="width: 27%">
+<col style="width: 11%">
+<col style="width: 11%">
+<col style="width: 13%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Testing Trial Type</strong></th>
+<th><strong>Prompt</strong></th>
+<th><strong>Correct</strong></th>
+<th><strong>Incorrect</strong></th>
+<th><strong>Type of Error</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><strong><em>itemBasic (B-A)</em></strong></p>
+<p><strong><em>n=8</em></strong></p></td>
+<td><p>me kisɑ</p>
+<p>dimæti</p></td>
+<td><p>kisɑ</p>
+<p>mæti</p></td>
+<td><p>isɑ</p>
+<p>æti</p></td>
+<td>misparse the onset of word2 as LC</td>
+</tr>
+<tr class="even">
+<td><p><strong><em>itemAltlternating (Alt)</em></strong></p>
+<p><strong><em>n=8</em></strong></p></td>
+<td>meʃido<br>
+ditedæp</td>
+<td>ido<br>
+edæp</td>
+<td>ʃido<br>
+tedæp</td>
+<td>misparse the LC as the word2’s onset</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="testing-task-3-novel-segmentation" class="level4">
+<h4 class="anchored" data-anchor-id="testing-task-3-novel-segmentation">Testing Task 3: Novel Segmentation</h4>
+<p>In the last task, testing task 3, the forced choice task was essentially the same morpheme segmentation task as above but with a different stimulus type. Specifically, the word2s here were all novel word2s that did not appear in the training phase at all. In this task similar to the first task the trials were divided into 3 types based on their word1 type as well as the error type: “basic”, “alternating”, and “non-alternating”. Table 3-8 below shows examples of each trial type.</p>
+<p>The basic trials involved testing items that were constructed using word1s without any LC or final consonants, specifically when a consonant-initial word2 was present. In these trials, the incorrect response was due to misparsing the word2 as vowel-initial.</p>
+<p>The alternating trials, on the other hand, included items with the LC, occurring when there was a vowel-initial word2. In these cases, the incorrect choice stemmed from misinterpreting the LC as belonging to word2.</p>
+<p>The non-alternating trials were solely comprised of /kɑn/, as it allowed for the inclusion of the final consonant to provide an incorrect option which could involve interpreting /n/ as belonging to the word2 (in contrast, /lu/ was used in the basic trials.</p>
+<p>Table ‎3‑8. Testing trial types in task 3 (novel segmentation) with examples</p>
+<table class="table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 9%">
+<col style="width: 10%">
+<col style="width: 12%">
+<col style="width: 34%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Testing Trial Type</strong></th>
+<th><strong>Prompt</strong></th>
+<th><strong>Correct</strong></th>
+<th><strong>Incorrect</strong></th>
+<th><strong>Type of Error</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><strong><em>itemBasic (B-A)</em></strong></p>
+<p><strong><em>n=4</em></strong></p></td>
+<td><p>mefærus</p>
+<p>ditʃægef</p></td>
+<td><p>færus</p>
+<p>tʃægef</p></td>
+<td><p>ærus</p>
+<p>ægef</p></td>
+<td>misparse the onset of the word2 as LC</td>
+</tr>
+<tr class="even">
+<td><p><strong><em>itemBasic (B-NA)</em></strong></p>
+<p><strong><em>n=4</em></strong></p></td>
+<td>lurunip</td>
+<td>runip</td>
+<td>unip</td>
+<td>misparse the onset of the word2 as LC</td>
+</tr>
+<tr class="odd">
+<td><strong><em>itemAltlternating<br>
+(Alt) n=4</em></strong></td>
+<td><p>ditɑjor</p>
+<p>meʃezɑ</p></td>
+<td><p>ɑjor</p>
+<p>ezɑ</p></td>
+<td><p>tɑjor</p>
+<p>ʃezɑ</p></td>
+<td>misparse the LC as the word2’s onset</td>
+</tr>
+<tr class="even">
+<td><strong><em>itemNon-alternating (NonAlt) n=4</em></strong></td>
+<td><p>kɑneʃin</p>
+<p>kɑnosu</p></td>
+<td><p>eʃin</p>
+<p>osu</p></td>
+<td><p>neʃin</p>
+<p>nosu</p></td>
+<td>misparse the final /n/ as the word2’s onset</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+<section id="data-collection-procedure-and-data-analysis" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="data-collection-procedure-and-data-analysis"><span class="header-section-number">3.5</span> Data collection procedure and data analysis</h2>
+<p>The data collection procedures and methods for the experiment were according to the standards set by the UBC Behavioral Research Ethics Board and received their approval. Participants were recruited from the UBC linguistics participants pool in exchange for course credit for undergraduate-level linguistics courses. Potential participants were informed on the recruitment page that the study would involve learning sound patterns in an unfamiliar language and responding to some questions. All participants in this pool had to complete a language background questionnaire comprised of a comprehensive set of questions about all the languages they know or have experience with, as well as demographic information and relevant language disorders. To be eligible, participants must not have hearing loss. The language background eligibility criterion chosen was to only include participants that have not listed their L1(s) as French with an age of acquisition below four. This inclusion criterion was implemented to ensure participants shared a more homogeneous language background, thereby minimizing potential confounds arising from native-speaker intuitions regarding liaison-like patterns.</p>
+<p>The experiment was executed using HTML and jsPsych, a JavaScript framework (de Leeuw, 2015), and was conducted remotely through a web browser. As a result, participants were able to take part in the experiment using their own desktop devices remotely. To ensure consistent audio quality and experimental conditions for all participants, a headphone check task (borrowed from Woods et al., 2017) was included. Participants were required to answer 4 of the 6 headphone check trials correctly to proceed to the experiment. After completing the experiment, the data was collected anonymously and securely stored on a UBC server in a comma-separated values (.csv) format.</p>
+<p>To prepare files for analysis, the researcher conducted pre-processing and data-cleaning procedures on the .csv files using specific packages in R Studio (version 2024.04.0). During this process, apart from the eligibility criteria, to ensure that the conclusions drawn from the data are robust and informative participant data were also removed based on predetermined performance exclusion criteria allowing the researcher to focus on the effects of the experimental manipulations. At first, the data of 4 participants were removed as they had mentioned the word “liaison” in their written feedback collected in the debriefing stage at the end of the experiment. Then the first of the predetermined exclusion criteria was applied to verify that participants were seriously engaged in the experiment. The participants who had over 10% of their total responses (n&gt;7) classified as null answers—specifically, instances of not pressing a key during testing trials—were excluded. After this initial filtering, among the remaining participants, the next criterion was to ascertain that they understood the task and its objectives. To assess this, participants whose mean accuracy on basic items in each task fell more than two standard deviations below the overall mean of all participants were also excluded from the experiment. In total, the data from 43 participants were removed from the study. The Table 3-9 shows the summary of the excluded participants by condition.</p>
+<table class="table">
+<caption>Table ‎3‑9. Breakdown of participants exclusion by condition and criteria</caption>
+<colgroup>
+<col style="width: 28%">
+<col style="width: 23%">
+<col style="width: 28%">
+<col style="width: 9%">
+<col style="width: 9%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: left;">Alternating 1st</th>
+<th style="text-align: left;">Non-alternating 1st</th>
+<th style="text-align: left;">Mixed</th>
+<th>total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Recruited</td>
+<td style="text-align: left;">82</td>
+<td style="text-align: left;">83</td>
+<td style="text-align: left;">76</td>
+<td>241</td>
+</tr>
+<tr class="even">
+<td>Language Background</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">1</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>Debriefing</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">2</td>
+<td>4</td>
+</tr>
+<tr class="even">
+<td>Null answers</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">2</td>
+<td>4</td>
+</tr>
+<tr class="odd">
+<td>Basic items mean</td>
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">11</td>
+<td style="text-align: left;">10</td>
+<td>30</td>
+</tr>
+<tr class="even">
+<td>After exclusion</td>
+<td style="text-align: left;">71</td>
+<td style="text-align: left;">66</td>
+<td style="text-align: left;">61</td>
+<td>198</td>
+</tr>
+</tbody>
+</table>
+<p>Finally, statistical analysis and modelling were performed using additional R packages, such as lme4 (Bates, et al., 2015). More details about the statistical models will be provided in the next chapter.</p>
+
+
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>https://graphicsurf.com/<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/gazellarium\.github\.io\/thesis25");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../chapters/2_backgroundandtheory.html" class="pagination-link" aria-label="Background and Theoretical Framework">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Background and Theoretical Framework</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../chapters/4_results.html" class="pagination-link" aria-label="Results">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Results</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

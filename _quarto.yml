@@ -1,0 +1,107 @@
+project:
+  type: book
+  output-dir: book
+  preview: 
+    port: 4200
+  
+
+book:
+# Metadata
+  title: "Learning Morpho-phonological Alternations like French Liaison"
+  subtitle: "an Artificial Language Learning Study"
+  author: "Z. Khalaji Pirbaluti"
+  date: "05/01/2025"
+  doi: "http://dx.doi.org/10.14288/1.0448645"
+  site-url: "https://gazellarium.github.io/thesis25" # Replace with your actual site URL
+  favicon: resources/favicon.png
+  repo-url: https://github.com/gazellarium/ALL-FrL
+  #repo-actions: [edit]
+  downloads: [epub]
+  
+  sidebar: 
+    style: docked
+    border: true
+    numbered: false
+
+
+  
+# Structure
+  chapters:
+    - index.qmd
+    - chapters/0_abstract.qmd
+    - chapters/1_introduction.qmd
+    - chapters/2_backgroundandtheory.qmd
+    - chapters/3_methods.qmd
+    - chapters/4_results.qmd
+    - chapters/5_discussion.qmd
+
+  appendices: 
+    - chapters/references.qmd
+    - chapters/appendix1.qmd
+    - chapters/appendix2.qmd
+    
+
+
+# References
+bibliography: resources/references.bib
+#csl: resources/formatting/apa.csl
+link-citations: true
+link-bibliography: true
+
+
+
+# Rendering
+format:
+  html:
+    theme:
+      light: [flatly, resources/formatting/styles.scss]
+      dark: [darkly, resources/formatting/styles.scss]
+    respect-user-color-scheme: true
+    #fontsize: 1.1em
+    #css: resources/formatting/styles.css
+    #mainfont: Arial
+    #monofont: Arial
+    #embed-resources: true
+    number-depth: 3
+    toc-expand: 2
+    toc-depth: 4
+    fig-align: left
+    fig-dpi: 300
+    fig-width: 6.5
+    tbl-cap-location: top
+  #pdf:
+    #documentclass: scrreprt
+  epub:
+    cover-image: resources/cover.png
+
+knitr:
+  opts_chunk:
+    out.width: "80%"
+
+
+#Other citation info
+citation:
+   title: "Learning Morpho-phonological Alternations like French Liaison: an Artificial Language Learning Study"
+   author:
+     - name: Zara Khalaji Pirbaluti
+       #orcid:
+       #email:
+       affiliation:
+       - name: University of British Columbia
+         department: Department of Linguistics
+         city: Vancouver
+         province: BC
+   type: thesis
+   genre: Master thesis
+   publisher: University of British Columbia
+   archive: Circle database
+   url: http://hdl.handle.net/2429/90893  # https://www.proquest.com/
+
+google-scholar: true
+
+
+copyright:
+  holder: Zara Khalaji Pirbaluti
+  year: 2025
+
+appendix-cite-as: display
